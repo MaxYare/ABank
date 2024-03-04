@@ -11,6 +11,12 @@
     "start": "npm start --workspaces --if-present",
     "test": "npm test --workspaces --if-present"
   },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.22.1",
+    "react-router-dom": "6.10.0"
+  },
   "type": "module",
   "workspaces": [
     "src/ABank_frontend"
