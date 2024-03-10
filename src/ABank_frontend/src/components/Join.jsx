@@ -12,7 +12,7 @@ function JoinUs() {
             <div class="container">
               <div class="row">
                 <div class="col-sm-12 text-center">
-                  <h2 class="section-title">Become myState citizen!</h2>
+                  <h2 class="section-title">Welcome!</h2>
                 </div>
               </div>
             </div>

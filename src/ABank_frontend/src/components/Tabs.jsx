@@ -1,7 +1,7 @@
 import React from "react";
-import UseCases from "./UseCases";
+import Figma from "./Figma";
 import Features from "./Features";
-import logo from "../assets/myState-logo-square-black_transparent.png";
+import logo from "../assets/Ace logo.png";
 import { Link } from "react-router-dom";
 import Join from "./Join";
 
@@ -10,8 +10,7 @@ function Tabs() {
   return (
     <div>
       <div>
-      <Link to="" onClick={() => window.location.reload()}>
-        {/* <Link to="http://127.0.0.1:4943/?canisterId=bw4dl-smaaa-aaaaa-qaacq-cai"> */}
+        <Link to="http://accelerate-bank.com/">
           <img className="logo-header" src={logo} alt="logo" />
         </Link>
       </div>
@@ -25,16 +24,16 @@ function Tabs() {
         </button>
         <button
           className="tablinks"
-          onClick={(event) => openTab(event, "Use Cases")}
+          onClick={(event) => openTab(event, "Figma")}
         >
-          Use Cases
+          App prototype
         </button>
         <button className="tablinks" onClick={(event) => openTab(event, "Join")}>
-          Join myState
+          Team up
         </button>
       </div>
-      <div id="Use Cases" className="tabcontent">
-        <UseCases/>
+      <div id="Figma" className="tabcontent">
+        <Figma/>
       </div>
       <div id="Features" className="tabcontent">
         <Features/>

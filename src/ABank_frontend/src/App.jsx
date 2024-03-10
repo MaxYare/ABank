@@ -10,7 +10,7 @@ class App extends React.Component {
       <BrowserRouter>
         <div style={{display: 'flex', flexDirection: 'column'}}>
           <Tabs />
-          <Intro />
+          {/* <Intro /> */}
         </div>
 
       </BrowserRouter>
